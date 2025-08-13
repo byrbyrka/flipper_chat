@@ -1,0 +1,75 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.app
+*.fap
+
+# Executables
+flipper_chat_app
+test_flipper_chat
+basic_usage
+
+# Object files
+applications/flipper_chat/*.o
+tests/*.o
+examples/*.o
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Flipper Zero specific
+*.sub
+*.subghz
+*.txt
+*.dat
+
+# User data
+/ext/
+/apps_data/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Documentation build
+docs/_build/
+site/
+
+# Test coverage
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Backup files
+*.orig
+*.rej 
